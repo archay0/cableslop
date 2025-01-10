@@ -1,0 +1,18 @@
+{
+  "name": "exampleOp",
+  "description": "An example custom coded cables.gl op",
+  "inputs": [
+    {
+      "name": "input",
+      "type": "number",
+      "default": 0
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "number"
+    }
+  ],
+  "tags": ["example", "custom", "cables.gl"]
+}
