@@ -1,0 +1,36 @@
+{
+  "name": "okhclToRgb",
+  "description": "A custom coded cables.gl op to convert OKHCL color values to RGB",
+  "inputs": [
+    {
+      "name": "OKH",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "OKL",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "OKC",
+      "type": "number",
+      "default": 0
+    }
+  ],
+  "outputs": [
+    {
+      "name": "R",
+      "type": "number"
+    },
+    {
+      "name": "G",
+      "type": "number"
+    },
+    {
+      "name": "B",
+      "type": "number"
+    }
+  ],
+  "tags": ["color", "conversion", "okhcl", "rgb"]
+}
