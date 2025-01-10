@@ -20,8 +20,16 @@
   ],
   "outputs": [
     {
-      "name": "RGB",
-      "type": "color"
+      "name": "R",
+      "type": "number"
+    },
+    {
+      "name": "G",
+      "type": "number"
+    },
+    {
+      "name": "B",
+      "type": "number"
     }
   ],
   "tags": ["color", "conversion", "okhcl", "rgb"]

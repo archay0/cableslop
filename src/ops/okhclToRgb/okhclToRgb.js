@@ -9,7 +9,9 @@ const
     okh = op.inNumber("OKH"),
     okl = op.inNumber("OKL"),
     okc = op.inNumber("OKC"),
-    rgb = op.outColor("RGB");
+    r = op.outNumber("R"),
+    g = op.outNumber("G"),
+    b = op.outNumber("B");
 
 // Implement the conversion from OKHCL to RGB using custom logic
 function okhclToRgb(okh, okl, okc) {
@@ -40,6 +42,8 @@ function okhclToRgb(okh, okl, okc) {
 // Execute the op
 exec.onTriggered = () => {
     const rgbValue = okhclToRgb(okh.get(), okl.get(), okc.get());
-    rgb.set(rgbValue);
+    r.set(rgbValue[0]);
+    g.set(rgbValue[1]);
+    b.set(rgbValue[2]);
     next.trigger();
 };
