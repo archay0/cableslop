@@ -9,9 +9,9 @@ const
     okh = op.inNumber("OKH"),
     okl = op.inNumber("OKL"),
     okc = op.inNumber("OKC"),
-    r = op.outNumber("R"),
-    g = op.outNumber("G"),
-    b = op.outNumber("B");
+    r = op.outFloat("R"),
+    g = op.outFloat("G"),
+    b = op.outFloat("B");
 
 // Implement the conversion from OKHCL to RGB using custom logic
 function okhclToRgb(okh, okl, okc) {
